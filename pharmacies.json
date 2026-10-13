@@ -1,0 +1,6 @@
+{
+ "walgreens": {"pharmacy": "Walgreens", "transfer_url": "https://www.walgreens.com/topic/pharmacy/transfer-prescription.jsp", "verified_date": "2026-10-13", "verified_how": "HTTP 200 on box fetch; page content not curated"},
+ "walmart": {"pharmacy": "Walmart Pharmacy", "refill_url": "https://www.walmart.com/cp/pharmacy-refills/1078664", "transfer_url": "https://www.walmart.com/cp/transfer-prescriptions/1088605", "verified_date": "2026-10-13", "verified_how": "HTTP 200 on box fetch; page content not curated"},
+ "costco": {"pharmacy": "Costco Pharmacy", "refill_url": "https://www.costco.com/pharmacy/home-delivery", "verified_date": "2026-10-13", "verified_how": "HTTP 200 on box fetch; page content not curated"},
+ "costplus": {"pharmacy": "Mark Cuban Cost Plus Drugs (mail order)", "refill_url": "https://www.costplusdrugs.com/", "verified_date": "2026-10-13", "verified_how": "pricing via official public API api.costplusdrugs.com"}
+}
