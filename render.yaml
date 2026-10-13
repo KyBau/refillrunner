@@ -1,0 +1,14 @@
+# Render Blueprint, free web service. NOT deployed.
+services:
+  - type: web
+    name: refillrunner-mcp
+    runtime: python
+    plan: free
+    buildCommand: "echo no dependencies"
+    startCommand: "python3 server.py --http"
+    healthCheckPath: /healthz
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: PYTHON_VERSION
+        value: 3.12.7
